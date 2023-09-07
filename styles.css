@@ -20,3 +20,7 @@
     background-color: #ccc; /* Background color for the grid boxes */
     border: 1px solid #000; /* Border for the grid boxes */
   }
+
+.hovered {
+    background-color: blue;
+}
