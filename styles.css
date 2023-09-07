@@ -1,0 +1,22 @@
+.title {
+    font-family:fantasy;
+    font-size: 30px;
+    text-align: center;
+}
+
+.gridcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%; /* Adjust this width as needed */
+    margin: auto; /* centres the gridcontainer horizontally */
+  }
+  
+.grid {
+    box-sizing: border-box;
+    width: calc(6.25% - 2px); /* 25% width for each box with 2px margin */
+    height: 0;
+    padding-bottom: calc(6.25% - 2px); /* 25% height for each box with 2px margin */
+    margin: 1px; /* Margin for spacing between boxes */
+    background-color: #ccc; /* Background color for the grid boxes */
+    border: 1px solid #000; /* Border for the grid boxes */
+  }
