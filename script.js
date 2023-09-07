@@ -20,6 +20,7 @@ console.log(`the value of i is ${i}`);
 while(i>0){
     let grid = document.createElement("div");
     grid.classList.add('grid');
+<<<<<<< HEAD
     // let gridpercentage = eval(`100 / ${selectedsize}`);
     // console.log(`grid percentage is ${gridpercentage}`);
     // grid.style.width = `calc(${gridpercentage}% - 2px)`;
@@ -29,8 +30,9 @@ while(i>0){
         grid.style.backgroundColor = "pink";
     });
     // adding the element into the DOM
+=======
+>>>>>>> parent of 628318f (Implemented eventListener for mouse hover)
     gridContainer.appendChild(grid);
     console.log(`grid ${i} created`);
     i--;
 };
-

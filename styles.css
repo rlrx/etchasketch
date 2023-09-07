@@ -28,6 +28,10 @@
     margin: 1px; /* Margin for spacing between boxes */
     background-color: #ccc; /* Background color for the grid boxes */
     border: 1px solid #000; /* Border for the grid boxes */
+<<<<<<< HEAD
   }
 
 
+=======
+  }
+>>>>>>> parent of 628318f (Implemented eventListener for mouse hover)
