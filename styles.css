@@ -1,7 +1,12 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
 .title {
     font-family:fantasy;
     font-size: 30px;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .gridcontainer {
@@ -20,7 +25,3 @@
     background-color: #ccc; /* Background color for the grid boxes */
     border: 1px solid #000; /* Border for the grid boxes */
   }
-
-.hovered {
-    background-color: blue;
-}
